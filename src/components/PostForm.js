@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './PostForm.css';
 
 class PostForm extends Component {
   constructor(props) {
@@ -34,7 +35,7 @@ class PostForm extends Component {
   }
   render() {
     return (
-      <div>
+      <div className='postForm'>
         <h1>Add Post</h1>
         <form onSubmit={this.onSubmit}>
           <div>
